@@ -46,6 +46,10 @@
 - Q: **_"How can I do X?"_**\
   A: ...
 
+## Contributing
+
+This repository uses [Whiskers](https://github.com/catppuccin/whiskers) to generate theme files. Edit the `app.tera` template, and run either `whiskers app.tera` or `just build` (if you have [just](https://github.com/casey/just) installed) to update the files in `themes/`.
+
 ## 💝 Thanks to
 
 - [Human](https://github.com/catppuccin)

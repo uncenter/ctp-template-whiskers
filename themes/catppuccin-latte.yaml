@@ -1,0 +1,5 @@
+colors:
+  red: #d20f39
+  blue: rgb(30, 102, 245)
+  green: hsl(109, 58%, 40%)
+  faint_green: rgba(64, 160, 43, 0.80)

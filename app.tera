@@ -1,0 +1,12 @@
+---
+whiskers:
+  version: 2.5.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.yaml"
+---
+colors:
+  red: #{{ red.hex }}
+  blue: {{ blue | css_rgb }}
+  green: {{ green | css_hsl }}
+  faint_green: {{ green | mod(opacity=0.8) | css_rgba }}

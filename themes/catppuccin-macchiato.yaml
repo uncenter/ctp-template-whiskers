@@ -1,0 +1,5 @@
+colors:
+  red: #ed8796
+  blue: rgb(138, 173, 244)
+  green: hsl(105, 48%, 72%)
+  faint_green: rgba(166, 218, 149, 0.80)
